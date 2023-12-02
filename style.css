@@ -161,17 +161,29 @@ main {
     font-size: 2rem;
 }
 
+.guide-outer-container {
+    display: flex;
+    gap: 1rem;
+}
 
 .guide-container {
-    border-radius: 1rem;
+    border-radius: 1rem 0rem 0rem 1rem;
     background-color: var(--primary);
     padding: 1rem;
     color: var(--opp-text);
+    text-decoration: none;
 }
 
 .guide-container p {
     color: var(--opp-subtext);
 }
+
+.guide-outer-container img {
+    border-radius: 0rem 1rem 1rem 0rem;
+    width: 300px;
+    height: auto;
+}
+
 
 .psa-container {
     background-color: var(--secondary);
@@ -203,6 +215,16 @@ main {
 
 .text-bubble-right {
     text-align: right;
+}
+
+.stats {
+    display: flex;
+    gap: 1rem;
+}
+
+.stats img {
+    border-radius: 1rem;
+    width: 300px;
 }
 
 .events {
@@ -238,5 +260,6 @@ main {
 .game-placeholder {
     width: 100px;
     height: 100px;
-    background-color: gray;
+    background-color: var(--accent);
+    border-radius: 1rem;
 }
