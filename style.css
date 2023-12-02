@@ -1,0 +1,49 @@
+
+body {
+    font-family: system-ui;
+}
+
+main {
+    display: flex;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo-icon {
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+}
+
+#profile-icon {
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+}
+
+.intro h1 {
+    font-size: 4rem;
+}
+
+.intro h3 {
+    font-size: 2rem;
+}
+
+.guide-container {
+
+}
+
+
+.events {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.game-placeholder {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+}
