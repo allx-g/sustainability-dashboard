@@ -138,18 +138,32 @@ main {
 .top-nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 10px
 }
 
 #logo-icon {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
     background-color: gray;
 }
 
+.top-nav h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.sign-in {
+    display: flex;
+    gap: 1rem;
+}
+
 #profile-icon {
-    width: 30px;
-    height: 30px;
-    background-color: gray;
+    width: 40px;
+    height: 40px;
+    background-color: var(--accent);
+    border-radius: 20px;    
 }
 
 .intro h1 {
